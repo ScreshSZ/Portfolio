@@ -1,0 +1,13 @@
+.contenedorEstudios{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.2);
+}
+
+.estudioTitulo{
+    font-size: 50px;
+    color: #ff6b01;
+    font-weight: bold;
+    word-wrap: break-word;
+}

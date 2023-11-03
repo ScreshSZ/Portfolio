@@ -1,0 +1,26 @@
+.logo{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.active{
+    color: #0ed815;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    transition: .30s; 
+}
+
+.nav-link:hover{
+    color: #fff;
+    background: linear-gradient(242deg, #ff6b01, #fd3838 );
+}
+
+.nav-item{
+    margin-right: 14px;
+}
+

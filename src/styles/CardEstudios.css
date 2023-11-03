@@ -1,0 +1,18 @@
+.logoEstudios{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.contenedorImg{
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.logoEstudios:hover{
+    transform: scale(1.1);
+    border: 3px solid #10e210;
+}
+

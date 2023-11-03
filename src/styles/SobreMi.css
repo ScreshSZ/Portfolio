@@ -1,0 +1,53 @@
+.contenedorDatos{
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, .2);
+    transform: translateY(-20px);
+    transition: .4s;
+}
+
+.contenedorDatos:hover{
+    transform: translateY(-30px);
+}
+
+.contenedorPerfil{
+    text-align: center;
+}
+
+.nombrePerfil{
+    font-size: 70px;
+    word-wrap: break-word;
+    color: #ff6b01;
+    background: linear-gradient(147deg,#ff6b01,#fd3838);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px #ff6b01;
+}
+
+.miTrabajo{
+    font-size: 50px;
+    word-wrap: break-word;
+    color: #ff6b01;
+    background: linear-gradient(147deg,#ff6b01,#fd3838);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px #ff6b01;
+}
+
+.contenedorPerfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    border: 3px solid #10e210;
+    object-fit: cover;
+}
+
+
+.descripcionPerfil{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.descripcion{
+    font-size: 30px;
+}
